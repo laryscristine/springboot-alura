@@ -49,6 +49,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers(HttpMethod.GET, "/topicos/*").permitAll()
                 .antMatchers(HttpMethod.POST, "/auth").permitAll()
                 .antMatchers(HttpMethod.GET, "/actuator/**").permitAll()
+                .antMatchers(HttpMethod.DELETE, "/topicos/*").hasRole("MODERADOR")
                 .anyRequest().authenticated()
                 .and().csrf().disable()//csrf cross site request forgery tipo de ataque hacker (token bloqueia esse tipo de ataque)
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
