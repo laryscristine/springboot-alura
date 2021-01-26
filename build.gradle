@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '2.2.5.RELEASE'
+    id 'org.springframework.boot' version '2.3.1.RELEASE'
     id 'io.spring.dependency-management' version '1.0.9.RELEASE'
     id 'java'
 }
@@ -21,6 +21,7 @@ dependencies {
     implementation 'io.springfox:springfox-swagger2:2.9.2'
     implementation 'io.springfox:springfox-swagger-ui:2.9.2'
     implementation 'com.h2database:h2'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
     compile group: 'de.codecentric', name: 'spring-boot-admin-starter-client', version: '2.3.0'
     compile('io.jsonwebtoken:jjwt:0.9.1')
     runtime('io.jsonwebtoken:jjwt:0.9.1')

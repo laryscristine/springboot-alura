@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
+import javax.validation.Valid; // após a versão 2.2 do spring boot, o bean validation não é mais incluso no starter necessario incluir dependências no gradle/maven
 
 @RestController
 @RequestMapping("/auth")

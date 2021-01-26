@@ -1,0 +1,54 @@
+com/example/alura/AluraApplication.java
+ com.example.alura.AluraApplication
+com/example/alura/config/validation/ErroFormularioDto.java
+ com.example.alura.config.validation.ErroFormularioDto
+com/example/alura/controller/dto/DetalhesTopicoDTO.java
+ com.example.alura.controller.dto.DetalhesTopicoDTO
+com/example/alura/controller/dto/TopicoDTO.java
+ com.example.alura.controller.dto.TopicoDTO
+com/example/alura/repository/CursoRepository.java
+ com.example.alura.repository.CursoRepository
+com/example/alura/controller/AuthController.java
+ com.example.alura.controller.AuthController
+com/example/alura/modelo/Resposta.java
+ com.example.alura.modelo.Resposta
+com/example/alura/repository/TopicoRepository.java
+ com.example.alura.repository.TopicoRepository
+com/example/alura/config/validation/ErroValidacaoHandler.java
+ com.example.alura.config.validation.ErroValidacaoHandler
+com/example/alura/controller/dto/RespostaDto.java
+ com.example.alura.controller.dto.RespostaDto
+com/example/alura/config/security/AuthService.java
+ com.example.alura.config.security.AuthService
+com/example/alura/modelo/Topico.java
+ com.example.alura.modelo.Topico
+com/example/alura/modelo/StatusTopico.java
+ com.example.alura.modelo.StatusTopico
+com/example/alura/controller/TopicController.java
+ com.example.alura.controller.TopicController
+com/example/alura/controller/LoginForm.java
+ com.example.alura.controller.LoginForm
+com/example/alura/modelo/Perfil.java
+ com.example.alura.modelo.Perfil
+com/example/alura/form/TopicoForm.java
+ com.example.alura.form.TopicoForm
+com/example/alura/modelo/Usuario.java
+ com.example.alura.modelo.Usuario
+com/example/alura/controller/HelloWorldController.java
+ com.example.alura.controller.HelloWorldController
+com/example/alura/controller/dto/TokenDTO.java
+ com.example.alura.controller.dto.TokenDTO
+com/example/alura/config/security/TokenService.java
+ com.example.alura.config.security.TokenService
+com/example/alura/config/swagger/SwaggerConfiguration.java
+ com.example.alura.config.swagger.SwaggerConfiguration
+com/example/alura/config/security/SecurityConfiguration.java
+ com.example.alura.config.security.SecurityConfiguration
+com/example/alura/repository/UsuarioRepository.java
+ com.example.alura.repository.UsuarioRepository
+com/example/alura/config/security/AuthenticationByTokenFilter.java
+ com.example.alura.config.security.AuthenticationByTokenFilter
+com/example/alura/form/AtualizacaoTopicoForm.java
+ com.example.alura.form.AtualizacaoTopicoForm
+com/example/alura/modelo/Curso.java
+ com.example.alura.modelo.Curso
