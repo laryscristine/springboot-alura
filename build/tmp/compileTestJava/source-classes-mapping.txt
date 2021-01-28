@@ -1,0 +1,2 @@
+com/example/alura/AluraApplicationTests.java
+ com.example.alura.AluraApplicationTests

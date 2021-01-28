@@ -3,6 +3,7 @@ package com.example.alura.controller;
 import com.example.alura.config.security.TokenService;
 import com.example.alura.controller.dto.TokenDTO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -17,6 +18,7 @@ import javax.validation.Valid; // após a versão 2.2 do spring boot, o bean val
 
 @RestController
 @RequestMapping("/auth")
+@Profile("prod")
 public class AuthController {
 
     @Autowired
