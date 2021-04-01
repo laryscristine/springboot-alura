@@ -1,2 +1,4 @@
 com/example/alura/AluraApplicationTests.java
  com.example.alura.AluraApplicationTests
+com/example/alura/repository/CursoRepositoryTest.java
+ com.example.alura.repository.CursoRepositoryTest

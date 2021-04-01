@@ -18,7 +18,7 @@ import javax.validation.Valid; // após a versão 2.2 do spring boot, o bean val
 
 @RestController
 @RequestMapping("/auth")
-@Profile("prod")
+@Profile(value = {"prod","test"})
 public class AuthController {
 
     @Autowired

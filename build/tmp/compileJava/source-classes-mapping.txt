@@ -8,8 +8,8 @@ com/example/alura/controller/dto/TopicoDTO.java
  com.example.alura.controller.dto.TopicoDTO
 com/example/alura/repository/CursoRepository.java
  com.example.alura.repository.CursoRepository
-com/example/alura/form/AtualizacaoTopicoForm.java
- com.example.alura.form.AtualizacaoTopicoForm
+com/example/alura/controller/AuthController.java
+ com.example.alura.controller.AuthController
 com/example/alura/modelo/Resposta.java
  com.example.alura.modelo.Resposta
 com/example/alura/repository/TopicoRepository.java
@@ -26,6 +26,8 @@ com/example/alura/modelo/StatusTopico.java
  com.example.alura.modelo.StatusTopico
 com/example/alura/controller/TopicController.java
  com.example.alura.controller.TopicController
+com/example/alura/config/security/DevSecurityConfiguration.java
+ com.example.alura.config.security.DevSecurityConfiguration
 com/example/alura/controller/LoginForm.java
  com.example.alura.controller.LoginForm
 com/example/alura/modelo/Perfil.java
@@ -42,15 +44,13 @@ com/example/alura/config/security/TokenService.java
  com.example.alura.config.security.TokenService
 com/example/alura/config/swagger/SwaggerConfiguration.java
  com.example.alura.config.swagger.SwaggerConfiguration
-com/example/alura/modelo/Curso.java
- com.example.alura.modelo.Curso
+com/example/alura/config/security/SecurityConfiguration.java
+ com.example.alura.config.security.SecurityConfiguration
 com/example/alura/repository/UsuarioRepository.java
  com.example.alura.repository.UsuarioRepository
 com/example/alura/config/security/AuthenticationByTokenFilter.java
  com.example.alura.config.security.AuthenticationByTokenFilter
-com/example/alura/config/security/SecurityConfiguration.java
- com.example.alura.config.security.SecurityConfiguration
-com/example/alura/controller/AuthController.java
- com.example.alura.controller.AuthController
-com/example/alura/config/security/DevSecurityConfiguration.java
- com.example.alura.config.security.DevSecurityConfiguration
+com/example/alura/form/AtualizacaoTopicoForm.java
+ com.example.alura.form.AtualizacaoTopicoForm
+com/example/alura/modelo/Curso.java
+ com.example.alura.modelo.Curso
